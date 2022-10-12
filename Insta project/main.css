@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(201, 201, 203, 0.171);
+}
+nav{
+    max-width: 1920px;
+    height: 59px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+    background-color: white;
+    
+}
+
+nav input{
+    width: 245px;
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    border-radius: 4px;
+    background-color: rgba(201, 201, 203, 0.171);
+}
+nav h1{
+    width: 333px;
+    height: 36px;
+}
+nav a{
+    padding-left: 15px;
+}
+.menu{
+    width: 254px;
+    height: 28px;
+    margin-left: 100px;
+}
+.main-nav{
+    padding-top: 10px;
+    margin-left: 25%;
+    
+display: inline-flex;
+}
+
+
+.main-page{
+    margin-left: 28%;
+    margin-top: 0.8cm;
+}
+
+.story{
+    height: 95px;
+   width: 468px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 7px;
+    align-items: flex-start;
+}
+ .story img{
+    width: 56px;
+    height: 56px;
+    margin-left: 29px;
+    margin-top: 3.5%;
+    border-radius: 45%;
+    
+ }
+
+ .post{
+    max-width: 468px;
+ }
