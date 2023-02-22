@@ -1,0 +1,133 @@
+$main-color: #E6A749;
+
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1D1E1D;
+    
+    
+}
+ nav{
+    height: 100%;
+    max-width: 155px;
+    position: fixed;
+    
+    .sidebar{
+        max-width: 155px;
+        height: 100vh;
+       background-color: #171817;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+        .wrapper{
+       
+
+            top: 50%;
+
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                max-width: 155px;
+                padding: 1em;
+                
+    
+                
+                li{
+                    position: relative;
+                    padding: 1em;
+                    
+                
+                    button{
+                        font-size: 20px;
+                        cursor: pointer;
+                        position: relative;
+                        background-color: rgba(240, 248, 255, 0);
+                        border: none;
+                        color: white;
+
+                        &:hover{
+                            color: $main-color;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+ }
+
+.hero{
+    height: 100vh;
+
+    display: flex;
+       justify-content: center;
+       align-items: center;
+
+   .container{
+    max-height: 655px;
+
+    button{
+        cursor: pointer;
+
+        &:hover{
+            color: white;
+        }
+    
+    }
+    
+    
+
+    .text{
+        display: inline-block;
+        max-width: 500px;
+        color: #FFFF;
+
+        .headers{
+            font-size: 18px;
+            margin-bottom: 2em;
+
+            .h1color{
+                color: $main-color;
+            }
+        }
+
+        .learn-button{
+            border: none;
+            background-color: $main-color;
+            padding: 1.2em 3em 1.2em 3em;
+            border-radius: 30px;
+            margin: 1.5em 0 1.5em 0;
+            
+            
+        }
+
+        .check-button{
+            margin: 2em 0 2em 0;
+            padding: 0.2em 1.6em 0.2em 1.6em;
+            background-color: $main-color;
+        }
+
+        .widgets{
+            img{
+                padding-right: 0.5em;
+            }
+        }
+    }
+   }
+
+   .image{
+    display: inline-block;
+    margin-left: 3em;
+
+    img{
+    max-width: 545px;
+    min-height: 600px;
+    }
+   }
+}

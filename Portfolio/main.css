@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1D1E1D;
+}
+
+nav {
+  height: 100%;
+  max-width: 155px;
+  position: fixed;
+}
+nav .sidebar {
+  max-width: 155px;
+  height: 100vh;
+  background-color: #171817;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .sidebar .wrapper {
+  top: 50%;
+}
+nav .sidebar .wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 155px;
+  padding: 1em;
+}
+nav .sidebar .wrapper ul li {
+  position: relative;
+  padding: 1em;
+}
+nav .sidebar .wrapper ul li button {
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: white;
+}
+nav .sidebar .wrapper ul li button:hover {
+  color: #E6A749;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container {
+  max-height: 655px;
+}
+.hero .container button {
+  cursor: pointer;
+}
+.hero .container button:hover {
+  color: white;
+}
+.hero .container .text {
+  display: inline-block;
+  max-width: 500px;
+  color: white;
+}
+.hero .container .text .headers {
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+.hero .container .text .headers .h1color {
+  color: #E6A749;
+}
+.hero .container .text .learn-button {
+  border: none;
+  background-color: #E6A749;
+  padding: 1.2em 3em 1.2em 3em;
+  border-radius: 30px;
+  margin: 1.5em 0 1.5em 0;
+}
+.hero .container .text .check-button {
+  margin: 2em 0 2em 0;
+  padding: 0.2em 1.6em 0.2em 1.6em;
+  background-color: #E6A749;
+}
+.hero .container .text .widgets img {
+  padding-right: 0.5em;
+}
+.hero .image {
+  display: inline-block;
+  margin-left: 3em;
+}
+.hero .image img {
+  max-width: 545px;
+  min-height: 600px;
+}/*# sourceMappingURL=main.css.map */
